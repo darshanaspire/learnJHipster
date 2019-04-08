@@ -1,0 +1,22 @@
+{
+    "learnJHipsterApp": {
+        "company": {
+            "home": {
+                "title": "Companies",
+                "createLabel": "Yangi Company qo`shish",
+                "createOrEditLabel": "Companyni tahrirlash"
+            },
+            "created": "Company {{ param }} bilan qo`shildi",
+            "updated": "{{ param }}- Company saqlandi",
+            "deleted": "{{ param }}- Company o`chirildi",
+            "delete": {
+                "question": "{{ id }}- Companyni o`chirmoqchimisiz? "
+            },
+            "detail": {
+                "title": "Company"
+            },
+            "name": "Name",
+            "owner": "Owner"
+        }
+    }
+}
