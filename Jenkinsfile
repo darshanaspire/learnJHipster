@@ -28,7 +28,6 @@ pipeline {
             steps {
                 echo 'Sonar Analysing....'
                     sh 'sonar-scanner'
-                }
             }
         }
     }
