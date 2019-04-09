@@ -12,6 +12,12 @@ pipeline {
                 echo 'Testing..'
             }
         }
+        stage('JAVA Version Testing') {
+            steps {
+                echo 'Testing..'
+                sh 'java -version'
+            }
+        }
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
